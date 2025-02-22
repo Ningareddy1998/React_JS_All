@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .bg-Container {
+    height: 100vh;
+    background-size: cover;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .heading {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 20px;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-1 {
+    background-color: #eab308;
+    color: #ffffff;
+    font-family: 'Roboto';
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    border-width: 0px;
+    margin: 5px;
+  }
+  .button-2 {
+    background-color: #1d4ed8;
+    color: #ffffff;
+    font-family: 'Roboto';
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    border-width: 0px;
+    margin: 5px;
+  }
+  .button-3 {
+    background-color: #ffffff;
+    color: #323f4b;
+    font-family: 'Roboto';
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border-width: 0px;
+    margin: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .bg-Container {
+    height: 100vh;
+    background-size: cover;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .heading {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 40px;
+    text-align: center;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-1 {
+    background-color: #eab308;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border-width: 0px;
+    margin: 5px;
+  }
+  .button-2 {
+    background-color: #1d4ed8;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Roboto';
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border-width: 0px;
+    margin: 5px;
+  }
+  .button-3 {
+    background-color: #ffffff;
+    color: #323f4b;
+    font-size: 20px;
+    font-family: 'Roboto';
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border-width: 0px;
+    margin: 5px;
+  }
+}
