@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .bg-container {
+    height: 100vh;
+  }
+  .container {
+    height: 100px;
+    width: auto;
+    margin: 50px;
+    background-image: -webkit-linear-gradient(
+      to bottom,
+      #2b2c49,
+      #b5b9ff,
+      #303150
+    ); /* For Safari and Chrome */
+    background-image: -moz-linear-gradient(
+      to bottom,
+      #2b2c49,
+      #b5b9ff,
+      #303150
+    ); /* For Firefox */
+    background-image: -o-linear-gradient(
+      to bottom,
+      #2b2c49,
+      #b5b9ff,
+      #303150
+    ); /* For Opera */
+    background-image: -ms-linear-gradient(
+      to bottom,
+      #2b2c49,
+      #b5b9ff,
+      #303150
+    ); /* For IE 10+ */
+    background-image: linear-gradient(
+      to bottom,
+      #2b2c49,
+      #b5b9ff,
+      #303150
+    ); /* Standard syntax */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    height: 100vh;
+  }
+  .container {
+    height: 200px;
+    width: auto;
+    margin: 50px;
+    background-image: -webkit-linear-gradient(
+      to bottom,
+      #2b2c49,
+      #b5b9ff,
+      #303150
+    ); /* For Safari and Chrome */
+    background-image: -moz-linear-gradient(
+      to bottom,
+      #2b2c49,
+      #b5b9ff,
+      #303150
+    ); /* For Firefox */
+    background-image: -o-linear-gradient(
+      to bottom,
+      #2b2c49,
+      #b5b9ff,
+      #303150
+    ); /* For Opera */
+    background-image: -ms-linear-gradient(
+      to bottom,
+      #2b2c49,
+      #b5b9ff,
+      #303150
+    ); /* For IE 10+ */
+    background-image: linear-gradient(
+      to bottom,
+      #2b2c49,
+      #b5b9ff,
+      #303150
+    ); /* Standard syntax */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+}
