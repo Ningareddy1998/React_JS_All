@@ -1,0 +1,19 @@
+.destination-item-container {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.destination-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.destination-name {
+  margin-top: 10px;
+  color: #333;
+}
