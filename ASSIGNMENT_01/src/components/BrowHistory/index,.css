@@ -1,0 +1,162 @@
+.bg-container {
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+  background-color: #3367d6;
+  padding: 10px 20px;
+}
+
+.container-1 {
+  margin-right: 20px;
+}
+
+.container-2 {
+  background-color: #2850a7;
+  padding: 5px;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.container-3 {
+  flex-grow: 1;
+}
+
+.input {
+  background-color: #2850a7;
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ececec;
+  border-radius: 4px;
+  outline: none;
+  color: #f8fafc;
+}
+
+.history-list,
+.ullist {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.history-item,
+.list {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ececec;
+}
+
+.time {
+  margin-right: 15px;
+  color: #475569;
+  width: 80px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.title-domain {
+  flex-grow: 1;
+}
+
+.title {
+  margin: 0;
+  color: #334155;
+  font-weight: 500;
+}
+
+.domain {
+  margin: 5px;
+  color: #021278;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delete-button,
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-button img,
+.button img {
+  width: 20px;
+  height: 20px;
+}
+
+.empty-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: #64748b;
+}
+
+@media (max-width: 768px) {
+  .top-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .domain {
+    margin: 5px;
+    color: #021278;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .container-1,
+  .container-2,
+  .container-3 {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .history-item,
+  .list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .time {
+    margin-right: 0;
+    margin-bottom: 5px;
+    width: auto;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .input {
+    padding: 6px 10px;
+  }
+  .domain {
+    margin: 5px;
+    color: #021278;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .logo {
+    width: 25px;
+    height: 25px;
+  }
+
+  .delete-button img,
+  .button img {
+    width: 18px;
+    height: 18px;
+  }
+}
