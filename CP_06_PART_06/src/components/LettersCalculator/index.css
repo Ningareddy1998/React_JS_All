@@ -1,0 +1,128 @@
+@media (max-width: 767px) {
+  .bg-container {
+    height: 100vh;
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    font-family: 'Roboto';
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .heading {
+    font-size: 20px;
+    text-align: center;
+  }
+  .paragraph {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .input {
+    height: 30px;
+    width: auto;
+    background-color: transparent;
+    border-color: #e4e7eb;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .input::placeholder {
+    color: gray;
+    opacity: 1;
+  }
+  .button {
+    height: 40px;
+    width: auto;
+    background-color: #ffffff;
+    color: #219a6f;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    height: 200px;
+    width: 100%;
+    align-self: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    height: 100vh;
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    font-family: 'Roboto';
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .heading {
+    font-size: 40px;
+    text-align: center;
+  }
+  .paragraph {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .input {
+    height: 40px;
+    width: auto;
+    background-color: transparent;
+    border-color: ffffff;
+    border: 2px solid;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .input::placeholder {
+    color: gray;
+    opacity: 1;
+  }
+  .button {
+    height: 50px;
+    width: auto;
+    background-color: #ffffff;
+    color: #219a6f;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    height: 400px;
+    width: 100%;
+    align-self: center;
+  }
+}
