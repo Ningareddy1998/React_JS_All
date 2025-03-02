@@ -1,0 +1,34 @@
+.appointment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #4a5bc7;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: auto;
+  width: 400px;
+  margin: 20px;
+}
+
+.appointment-details {
+  flex-grow: 1;
+}
+
+.appointment-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.appointment-date {
+  color: #b5b7c4;
+}
+
+.favorite-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.image {
+  width: 20px;
+}
