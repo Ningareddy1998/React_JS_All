@@ -1,0 +1,150 @@
+@media (max-width: 767px) {
+  .bg-container {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to-bottom, #9796f0, #8b5cf6);
+    padding: 20px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .top-container form {
+    width: 40%;
+  }
+
+  .top-container img {
+    width: 50%;
+    max-width: 400px;
+  }
+
+  .top-container label {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .top-container input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .top-container button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  hr {
+    margin: 20px 0;
+  }
+
+  .appointments-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .filter-button {
+    background-color: #e0e0e0;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .filter-button.active {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .appointments-list {
+    list-style: none;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .bg-container {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to-bottom, #9796f0, #8b5cf6);
+    padding: 20px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .top-container form {
+    width: 40%;
+  }
+
+  .top-container img {
+    width: 50%;
+    max-width: 400px;
+  }
+
+  .top-container label {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .top-container input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .top-container button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  hr {
+    margin: 20px 0;
+  }
+
+  .appointments-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .filter-button {
+    background-color: #e0e0e0;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .filter-button.active {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .appointments-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
