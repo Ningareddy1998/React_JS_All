@@ -1,0 +1,13 @@
+.answer-container {
+  padding: 10px;
+  background-color: #f1f5f8;
+  border-radius: 5px;
+  margin-top: 10px;
+  border-top: 1px solid #d7dae6;
+}
+
+.answer-text {
+  color: #52606d;
+  font-size: 16px;
+  line-height: 1.5;
+}
