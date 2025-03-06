@@ -1,0 +1,42 @@
+/* Header/index.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  padding: 20px 0;
+}
+
+.website-logo {
+  width: 150px;
+}
+
+.score-timer {
+  display: flex;
+  align-items: center;
+}
+
+.score-card {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+}
+
+.score-card p,
+.timer p {
+  margin-left: 10px;
+}
+
+.timer img {
+  width: 20px;
+}
+.paragraph {
+  color: aliceblue;
+}
