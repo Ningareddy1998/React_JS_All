@@ -1,0 +1,19 @@
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: auto;
+}
+.user-image {
+  height: 200px;
+  width: auto;
+}
+.user-name {
+  font-size: 15px;
+  text-align: center;
+}
+.user-role {
+  color: #9aa5b1;
+  text-align: center;
+}
