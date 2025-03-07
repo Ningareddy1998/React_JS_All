@@ -1,0 +1,20 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.each_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+}
+s .title {
+  align-self: flex-start;
+}
+.publishedDate {
+  align-self: flex-end;
+  color: #9aa5b1;
+}
+.description {
+  color: #9aa5b1;
+}
