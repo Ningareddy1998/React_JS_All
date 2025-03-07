@@ -1,0 +1,35 @@
+.cryptocurrency-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: background 0.3s ease;
+}
+
+.cryptocurrency-item:hover {
+  background: #1a1a1a;
+}
+
+.currency-name-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.currency-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.currency-values-container {
+  display: flex;
+  gap: 20px;
+  min-width: 120px;
+  justify-content: space-between;
+}
+
+.currency-value {
+  font-size: 16px;
+  font-weight: bold;
+}
