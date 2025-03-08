@@ -1,0 +1,23 @@
+.latest-match-card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0f172a;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.latest-match-left-part {
+  color: #ffffff;
+  width: 50%;
+}
+
+.latest-match-team-name {
+  color: #ffffff;
+}
+.latest-match-right-part {
+  margin-left: 50px;
+  color: #ffffff;
+  width: 50%;
+}
