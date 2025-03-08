@@ -1,0 +1,13 @@
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0f172a;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+
+.not-found-heading {
+  font-size: 36px;
+}
