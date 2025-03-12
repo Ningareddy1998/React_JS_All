@@ -1,0 +1,42 @@
+.events-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f8fafc;
+}
+
+.events-container {
+  width: 50%;
+}
+
+.events-heading {
+  font-size: 24px;
+  color: #323f4b;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+/* Corrected for 2x2 Grid Layout */
+.events-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
+  grid-gap: 20px; /* Adds spacing between event items */
+  justify-content: center;
+  align-items: start;
+}
+
+/* Keeps the active event details properly aligned */
+.active-event-details-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
