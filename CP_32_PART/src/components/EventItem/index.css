@@ -1,0 +1,44 @@
+.event-item {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Ensures items fit inside grid */
+}
+
+.event-item:hover {
+  transform: scale(1.05);
+}
+
+.event-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  background: none;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.event-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.event-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0967d2;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.event-location {
+  font-size: 14px;
+  color: #64748b;
+  text-align: center;
+}
