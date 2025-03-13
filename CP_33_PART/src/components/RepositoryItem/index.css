@@ -1,0 +1,39 @@
+.repository-item {
+  background-color: #f8f8ff;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.repository-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.repository-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+.details-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.details-image {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.details-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #1e293b;
+  margin: 0;
+}
