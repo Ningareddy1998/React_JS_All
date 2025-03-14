@@ -1,0 +1,68 @@
+/* src/components/AlertNotifications/index.css */
+/* General Styling */
+.alert-notifications-container {
+  height: 100vh;
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.main-heading {
+  font-size: 36px;
+  color: #0f172a;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-1 {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.success-icon {
+  color: #2dca73;
+}
+
+.error-icon {
+  color: #ff0b37;
+}
+
+.warning-icon {
+  color: #ffb800;
+}
+
+.info-icon {
+  color: #0f81e0;
+}
+
+.heading {
+  font-size: 18px;
+  margin: 0;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #64748b;
+}
+
+.description {
+  flex-grow: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
