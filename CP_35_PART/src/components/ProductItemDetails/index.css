@@ -1,0 +1,168 @@
+/* Product Details Container */
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  background-color: #ffffff;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Top Section: Product Details */
+.top-container {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.product-image {
+  width: 350px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details-content {
+  margin-left: 40px;
+  max-width: 500px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #171f46;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3b82f6;
+  margin: 10px 0;
+}
+
+.description {
+  font-size: 16px;
+  color: #475569;
+  margin-top: 15px;
+}
+
+.brand,
+.availability {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #1e293b;
+}
+
+.reviews {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #616e7c;
+}
+
+.rating {
+  font-size: 14px;
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+/* Quantity Controls */
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.quantity-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #3b82f6;
+  padding: 5px;
+  transition: 0.3s ease;
+}
+
+.quantity-btn:hover {
+  color: #1e293b;
+}
+
+.quantity {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+/* Add to Cart Button */
+.add-to-cart-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #1e293b;
+}
+/* Error View Container */
+.error-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+/* Error Image */
+.error-image {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Error Heading */
+.error-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #171f46;
+  margin-bottom: 10px;
+}
+
+/* Error Description */
+.error-description {
+  font-size: 16px;
+  color: #616e7c;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Return Button */
+.return-button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.return-button:hover {
+  background-color: #1e293b;
+}
