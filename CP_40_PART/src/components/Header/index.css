@@ -1,0 +1,52 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #dcdcdc;
+}
+
+.header-logo {
+  width: 50px;
+}
+
+.hamburger-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.popup-container {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  text-align: center;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list {
+  margin: 30px;
+}
+.menu-item {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
