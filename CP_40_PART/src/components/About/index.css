@@ -1,0 +1,12 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.about-image {
+  width: 80%;
+  max-width: 500px;
+}
