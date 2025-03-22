@@ -1,0 +1,17 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.not-found-image {
+  width: 80%;
+  max-width: 400px;
+}
+
+h1 {
+  color: #616e7c;
+  margin-top: 10px;
+}
