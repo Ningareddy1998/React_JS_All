@@ -1,0 +1,12 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.home-image {
+  width: 80%;
+  max-width: 500px;
+}
