@@ -1,0 +1,53 @@
+.timeline-container {
+  padding: 20px;
+  font-family: Roboto, sans-serif;
+}
+
+.timeline-title {
+  color: #2b237c;
+  text-align: center;
+}
+
+.course-card,
+.project-card {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course-card .duration,
+.project-card .duration {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #0967d2;
+}
+
+.tags-container {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  background: #1e293b;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.project-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #0967d2;
+  font-weight: bold;
+}
