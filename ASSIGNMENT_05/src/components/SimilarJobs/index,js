@@ -1,0 +1,50 @@
+import './index.css'
+
+const SimilarJobs = ({jobs = []}) => (
+  <div className="similar-jobs">
+    <h2 className="similar-jobs__title">Similar Jobs</h2>
+
+    {jobs.length > 0 ? (
+      <ul className="similar-jobs__list">
+        {jobs.map(job => {
+          const {
+            id,
+            title,
+            company_logo_url: companyLogoUrl,
+            employment_type: employmentType,
+            job_description: jobDescription,
+            location,
+            rating = 'Not rated',
+          } = job
+
+          return (
+            <li key={id} className="similar-jobs__item">
+              <div className="similar-job-card">
+                <img
+                  src={companyLogoUrl}
+                  alt={`${title} company logo`}
+                  className="similar-job__logo"
+                />
+                <div className="similar-job__details">
+                  <h3 className="similar-job__title">{title}</h3>
+                  <p className="similar-job__rating">⭐ {rating}</p>
+                  <p className="similar-job__description">{jobDescription}</p>
+                  <div className="btm">
+                    <p className="similar-job__location">📍 {location}</p>
+                    <p className="similar-job__employment">
+                      💼 {employmentType}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          )
+        })}
+      </ul>
+    ) : (
+      <p className="similar-jobs__empty">No similar jobs available.</p>
+    )}
+  </div>
+)
+
+export default SimilarJobs
